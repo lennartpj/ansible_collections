@@ -1,0 +1,10 @@
+{
+    "docs": "https://docs.ansible.com/ansible-core/2.13/dev_guide/testing/sanity/yamllint.html", 
+    "results": [
+        {
+            "message": "The test `ansible-test sanity --test yamllint` [[explain](https://docs.ansible.com/ansible-core/2.13/dev_guide/testing/sanity/yamllint.html)] failed with 3 errors:", 
+            "output": "galaxy.yml:62:1: empty-lines: too many blank lines (1 > 0)\nroles/update/main.yml:5:10: error: syntax error: mapping values are not allowed here (syntax)\nroles/update/main.yml:5:10: unparsable-with-libyaml: None - mapping values are not allowed in this context"
+        }
+    ], 
+    "verified": false
+}
